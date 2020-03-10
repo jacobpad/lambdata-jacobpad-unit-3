@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from my_lambdata.my_mod import ten_x, check_null
 # from my_lambdata.my_mod import check_null
 df = pd.DataFrame({'State':['AZ', 'CT', 'CO', 'CA', 'TX', 'KY', 'NY', 'AL']})
