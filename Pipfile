@@ -8,6 +8,12 @@ twine = "*"
 
 [packages]
 pandas = "*"
+autopep8 = "*"
+numpy = "*"
+scikit-learn = "*"
+scipy = "*"
+matplotlib = "*"
+category-encoders = "*"
 
 [requires]
 python_version = "3.8"
