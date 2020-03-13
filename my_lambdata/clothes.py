@@ -1,6 +1,12 @@
 class Polo():
+    '''
+    A class to create Polo shirts, not the game.
+    '''
     
     def __init__(self, style, size, color):
+        '''
+        The init for Polo
+        '''
         self.style = style
         self.size = size
         self.color = color
@@ -14,9 +20,6 @@ class Polo():
         print('Time to pop the collar')
 
 if __name__ == '__main__':
-
-    # df = DataFrame(_____)
-    # print(df.head())
 
     polo1 = Polo(style='Poly', size='XXLT', color='Black')
     print(type(polo1))
